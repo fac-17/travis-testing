@@ -1,4 +1,5 @@
 # [travis-testing](https://travis-testing-server-node.herokuapp.com/)
+[![Build Status](https://travis-ci.org/fac-17/travis-testing.svg?branch=master)](https://travis-ci.org/fac-17/travis-testing)
 
 ## What is Travis CI?
 
