@@ -4,7 +4,7 @@
   "description": "tetsing travis CI deployment",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node tests.js | tap-spec",
     "start": "node server.js"
   },
   "repository": {
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/fac-17/travis-testing/issues"
   },
-  "homepage": "https://github.com/fac-17/travis-testing#readme"
+  "homepage": "https://github.com/fac-17/travis-testing#readme",
+  "dependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
+  }
 }
