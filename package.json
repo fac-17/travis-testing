@@ -1,0 +1,20 @@
+{
+  "name": "travis-testing",
+  "version": "1.0.0",
+  "description": "tetsing travis CI deployment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fac-17/travis-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fac-17/travis-testing/issues"
+  },
+  "homepage": "https://github.com/fac-17/travis-testing#readme"
+}
